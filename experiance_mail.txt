@@ -1,0 +1,33 @@
+Dear HR Team,
+
+I hope this message finds you well.
+
+I am writing to express my interest in the Data Engineer role at your esteemed organization. I bring over 2 year of professional experience working in the IT department as a Data Engineer, I design and implement scalable data pipelines using PySpark, SQL, and Python within the Databricks platform. I work with large-scale datasets to perform efficient data ingestion, transformation, and validation, ensuring high data quality and reliability. My responsibilities include developing optimized Spark jobs, writing complex SQL queries for data modeling and analytics, and leveraging Databricks notebooks for collaborative development and automation. I also focus on performance tuning, error handling, and maintaining end-to-end data workflows that support business intelligence and advanced analytics.
+
+I also hold 4 professional certifications, which include:
+
+1 in Python
+
+2 in SQL
+
+1 in Linux
+
+Please find my LinkedIn profile here for your reference:
+https://www.linkedin.com/in/nirav-chauhan-353985251/
+
+Details:
+
+Notice Period: 2 months
+
+Total Experience: 2 year
+
+Technical Expertise: Python, PySpark, SQL, Databricks, Azure
+
+Current Location: Ahmedabad, Gujarat
+
+I have attached my updated resume for your kind consideration. I am enthusiastic about the opportunity to bring my skills and passion for development to your team, and I look forward to the possibility of contributing to your organization’s success.
+
+Thank you for your time and consideration.
+
+Best regards,
+Nirav Chauhan

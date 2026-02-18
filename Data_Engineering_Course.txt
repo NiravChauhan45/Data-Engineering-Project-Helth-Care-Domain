@@ -1,0 +1,17 @@
+TYPES OF CLOUD SERVICES:
+
+IaaS - Infrastructure as a Service
+PaaS - Platform as a Service (Ex: Azure SQL DB)
+SaaS - Software as a Service (Ex: Microsoft Fabric)
+
+Cloud Policies:
+
+LRS - Locally Redundant Storage
+ZRS - Zone Redundant Storage
+GRS - Geo Redundant Storage
+GZRS - Geo Zone Redundant Storage
+
+
+Azure SQL Data base Admin:
+User Name: nirav
+Password: Nir#19/01/2004

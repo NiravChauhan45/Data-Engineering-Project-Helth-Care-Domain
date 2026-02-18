@@ -1,0 +1,50 @@
+1) Avoid shuffling with broadcast join
+2) Schema inference or enforcement ?
+3) Spark Architecture ?
+4) Check logs for failed spark jobs ?
+5) Jobs, Stages & Tasks in Spark.
+6) CPU Cores allocation for partitions.
+7) Calculation of jobs, stages, and tasks in spark job
+8) Repartition V/S Coalesce
+9) RDDs V/S Dataframe Difference
+10) Dataframe write modes ?
+11) Pyspark job optimizations techniques
+12) Handling Data Skewness in Pyspark
+13) Join straegies in pyspark
+14) Pyspark's Catalyst: Optimizing Query Performance
+15) Identifying Executors Numbers
+16) Difference between client mode and cluster mode where exactly your driver runs - edge node / executers
+17) what is partitions skew, reasons for it. how to solve partitions skew issues ? --> It mostly happens after a wide transformation
+18) what is a broadcast join in apache spark/sometimes also called as a map side join --> One small table / one large small table/df can be broadcasted across all the executors you will not end up shuffling the data
+19) what is the Difference between partition and bucketing.
+20) What are Different types of joins in sparks. 
+    --> 1. broadcast hash join (one small and one large), 
+        2. shuffle hash join (1 medium size table, 1 large), 
+        3. shuffle sort merge join (2 large table) 
+
+21) Why count when used with group by is a transformation else its an action.
+    --> df.count() -- action 
+        df.groupBy().count() -- transformation
+
+22) If your spark job is running slow how would you approach to debug it.
+    Follow below steps:
+    1. Check spark UI for your slow tasks, enable AQE for handling partition skew
+    2. Optimize the join strategies, consider broadcast joins for small datasets
+    3. Ensure sufficient resources are allocated for your job
+    4. verify number of dataframe partitions / change the number of shuffle partitions if required.
+    5. Mitigate GC(Garbage Collection) delays by giving some off heap memory.
+    6. Monitor disk spills, allocate more memory per CPU core if needed.
+    7. opt for hash aggregation over sort aggregate when aggregating.
+    8. Implement caching
+    9. Choose the right file formats & compression techniques.
+
+23) Difference between managed table & external table. when do you go about creating external tables.
+    Table - Data + Metadata
+    Managed - Data & Metadata is managed by spark
+    External - Data is external, but Metadata is managed.   
+
+    -- when dropping managed table (both data and metadata is dropped)
+    -- when dropping external table (only metadata is dropped)
+
+24) why we are not using mapreduce these days. what are similarities between spark and mapReduce.
+25) How do you handle your pyspark code deployment, Explain about the CI/CD process.
